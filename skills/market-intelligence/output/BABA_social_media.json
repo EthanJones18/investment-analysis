@@ -1,0 +1,293 @@
+{
+  "symbol": "BABA",
+  "analysis_date": "2026-03-02 20:13:01",
+  "total_posts": 14,
+  "composite_sentiment": 0.0607,
+  "sentiment_label": "中性",
+  "platform_results": {
+    "twitter": {
+      "posts": [
+        {
+          "id": "1",
+          "text": " $BABA is looking bullish today! 🚀 Great earnings report.",
+          "author": "trader_joe",
+          "sentiment": {
+            "compound": 0.6588,
+            "positive": 0.354,
+            "neutral": 0.646,
+            "negative": 0.0,
+            "sentiment": "极度乐观"
+          },
+          "influence": 1800.5,
+          "created_at": "2026-03-02 18:13"
+        },
+        {
+          "id": "2",
+          "text": " Just bought more $BABA. The fundamentals are strong.",
+          "author": "investor_sarah",
+          "sentiment": {
+            "compound": 0.5106,
+            "positive": 0.32,
+            "neutral": 0.68,
+            "negative": 0.0,
+            "sentiment": "极度乐观"
+          },
+          "influence": 988.0,
+          "created_at": "2026-03-02 15:13"
+        },
+        {
+          "id": "3",
+          "text": " $BABA is overvalued at this price. Taking profits here.",
+          "author": "bearish_bob",
+          "sentiment": {
+            "compound": 0.4404,
+            "positive": 0.266,
+            "neutral": 0.734,
+            "negative": 0.0,
+            "sentiment": "乐观"
+          },
+          "influence": 642.5,
+          "created_at": "2026-03-02 12:13"
+        },
+        {
+          "id": "4",
+          "text": " Not sure about $BABA anymore. Market is too volatile.",
+          "author": "confused_trader",
+          "sentiment": {
+            "compound": -0.2411,
+            "positive": 0.0,
+            "neutral": 0.803,
+            "negative": 0.197,
+            "sentiment": "悲观"
+          },
+          "influence": 166.5,
+          "created_at": "2026-03-02 08:13"
+        },
+        {
+          "id": "5",
+          "text": " $BABA to the moon! 🌙💎🙌 Best stock in my portfolio.",
+          "author": "moon_boy",
+          "sentiment": {
+            "compound": 0.6696,
+            "positive": 0.243,
+            "neutral": 0.757,
+            "negative": 0.0,
+            "sentiment": "极度乐观"
+          },
+          "influence": 1091.5,
+          "created_at": "2026-03-02 02:13"
+        }
+      ],
+      "stats": {
+        "count": 5,
+        "avg_sentiment": 0.4077,
+        "positive_ratio": 0.8,
+        "negative_ratio": 0.2,
+        "neutral_ratio": 0.0
+      }
+    },
+    "reddit": {
+      "posts": [
+        {
+          "id": "r1",
+          "text": "Why BABA is a buy at current levels Been analyzing the financials and the company is undervalued. St...",
+          "author": "dd_analyst",
+          "sentiment": {
+            "compound": 0.7351,
+            "positive": 0.265,
+            "neutral": 0.735,
+            "negative": 0.0,
+            "sentiment": "极度乐观"
+          },
+          "influence": 940.0,
+          "created_at": "2026-03-02 17:13"
+        },
+        {
+          "id": "r2",
+          "text": "BABA earnings discussion thread What are your thoughts on the latest earnings? Beat expectations but...",
+          "author": "earnings_watcher",
+          "sentiment": {
+            "compound": -0.5927,
+            "positive": 0.0,
+            "neutral": 0.815,
+            "negative": 0.185,
+            "sentiment": "极度悲观"
+          },
+          "influence": 933.0,
+          "created_at": "2026-03-02 14:13"
+        },
+        {
+          "id": "r3",
+          "text": "Selling my BABA position The technicals look terrible. Breaking below support levels. Time to cut lo...",
+          "author": "technical_trader",
+          "sentiment": {
+            "compound": -0.6369,
+            "positive": 0.119,
+            "neutral": 0.531,
+            "negative": 0.35,
+            "sentiment": "极度悲观"
+          },
+          "influence": 416.0,
+          "created_at": "2026-03-02 10:13"
+        }
+      ],
+      "stats": {
+        "count": 3,
+        "avg_sentiment": -0.1648,
+        "positive_ratio": 0.3333,
+        "negative_ratio": 0.6667,
+        "neutral_ratio": 0.0
+      }
+    },
+    "xueqiu": {
+      "posts": [
+        {
+          "id": "x1",
+          "text": "深度分析：BABA的投资价值 从基本面来看，这家公司估值合理，未来增长空间大。建议长期持有。",
+          "author": "价值投资者",
+          "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "neutral": 1.0,
+            "negative": 0.0,
+            "sentiment": "中性"
+          },
+          "influence": 3029.5,
+          "created_at": "2026-03-02 16:13"
+        },
+        {
+          "id": "x2",
+          "text": "BABA短期调整，中期看好 最近股价回调，但基本面没有变化。逢低可以加仓。",
+          "author": "趋势跟踪者",
+          "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "neutral": 1.0,
+            "negative": 0.0,
+            "sentiment": "中性"
+          },
+          "influence": 1506.5,
+          "created_at": "2026-03-02 11:13"
+        },
+        {
+          "id": "x3",
+          "text": "为什么我不看好BABA 竞争加剧，市场份额被侵蚀。短期看不到好转迹象。",
+          "author": "谨慎投资者",
+          "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "neutral": 1.0,
+            "negative": 0.0,
+            "sentiment": "中性"
+          },
+          "influence": 1229.0,
+          "created_at": "2026-03-02 05:13"
+        }
+      ],
+      "stats": {
+        "count": 3,
+        "avg_sentiment": 0.0,
+        "positive_ratio": 0.0,
+        "negative_ratio": 0.0,
+        "neutral_ratio": 1.0
+      }
+    },
+    "guba": {
+      "posts": [
+        {
+          "id": "g1",
+          "text": "BABA明天必涨！ 今天洗盘结束，主力已经吸筹完毕。明天高开高走！",
+          "author": "股神888",
+          "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "neutral": 1.0,
+            "negative": 0.0,
+            "sentiment": "中性"
+          },
+          "influence": 234.0,
+          "created_at": "2026-03-02 19:13"
+        },
+        {
+          "id": "g2",
+          "text": "BABA被套了，怎么办？ 高位追进去的，现在亏损20%。要不要割肉？",
+          "author": "小散户",
+          "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "neutral": 1.0,
+            "negative": 0.0,
+            "sentiment": "中性"
+          },
+          "influence": 588.0,
+          "created_at": "2026-03-02 13:13"
+        },
+        {
+          "id": "g3",
+          "text": "理性分析BABA 从财报看业绩稳定，但估值偏高。建议观望为主。",
+          "author": "老股民",
+          "sentiment": {
+            "compound": 0.0,
+            "positive": 0.0,
+            "neutral": 1.0,
+            "negative": 0.0,
+            "sentiment": "中性"
+          },
+          "influence": 124.0,
+          "created_at": "2026-03-02 06:13"
+        }
+      ],
+      "stats": {
+        "count": 3,
+        "avg_sentiment": 0.0,
+        "positive_ratio": 0.0,
+        "negative_ratio": 0.0,
+        "neutral_ratio": 1.0
+      }
+    }
+  },
+  "sentiment_shifts": [
+    {
+      "platform": "twitter",
+      "shift": 0.3224,
+      "direction": "转向乐观",
+      "early_avg": 0.2142,
+      "late_avg": 0.5366
+    },
+    {
+      "platform": "reddit",
+      "shift": 0.7081,
+      "direction": "转向乐观",
+      "early_avg": -0.6369,
+      "late_avg": 0.0712
+    }
+  ],
+  "keywords": {
+    "twitter": {
+      "baba": 5,
+      "looking": 1,
+      "bullish": 1,
+      "today": 1,
+      "great": 1,
+      "earnings": 1,
+      "report": 1,
+      "just": 1,
+      "bought": 1,
+      "more": 1
+    },
+    "reddit": {
+      "baba": 3,
+      "levels": 2,
+      "earnings": 2,
+      "current": 1,
+      "analyzing": 1,
+      "financials": 1,
+      "company": 1,
+      "undervalued": 1,
+      "discussion": 1,
+      "thread": 1
+    },
+    "xueqiu": {},
+    "guba": {}
+  }
+}

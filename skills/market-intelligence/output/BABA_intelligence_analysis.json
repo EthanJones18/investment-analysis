@@ -1,0 +1,224 @@
+{
+  "symbol": "BABA",
+  "analysis_date": "2026-03-02 20:13:05",
+  "report_type": "市场信息深度解读",
+  "executive_summary": "社交媒体情绪：中性 (0.0607) | 新闻情绪：偏乐观 (0.19)",
+  "news_analysis": {
+    "key_news": [
+      {
+        "title": "BABA Beats Earnings Estimates on Strong Cloud Growth",
+        "source": "Bloomberg",
+        "date": "2026-03-02 20:13:02",
+        "category": "earnings",
+        "sentiment": "positive",
+        "polarity": 0.3167,
+        "impact_score": 0.3167,
+        "interpretation": "业绩超预期，市场信心增强，可能推动股价上涨"
+      },
+      {
+        "title": "BABA业绩超预期 云计算业务增长强劲",
+        "source": "财新",
+        "date": "2026-03-02 20:13:04",
+        "category": "earnings",
+        "sentiment": "neutral",
+        "polarity": 0.2,
+        "impact_score": 0.2,
+        "interpretation": "业绩符合预期，市场反应平淡"
+      },
+      {
+        "title": "BABA revenue rises 15% on cloud demand",
+        "source": "Reuters",
+        "date": "2026-03-02 20:13:02",
+        "category": "earnings",
+        "sentiment": "neutral",
+        "polarity": 0.2,
+        "impact_score": 0.2,
+        "interpretation": "业绩符合预期，市场反应平淡"
+      },
+      {
+        "title": "BABA宣布加大AI投资力度",
+        "source": "财新",
+        "date": "2026-02-28 20:13:04",
+        "category": "general",
+        "sentiment": "neutral",
+        "polarity": 0.2,
+        "impact_score": 0.2,
+        "interpretation": "中性消息，影响有限"
+      },
+      {
+        "title": "BABA to invest $10 billion in AI infrastructure",
+        "source": "Reuters",
+        "date": "2026-02-28 20:13:02",
+        "category": "general",
+        "sentiment": "neutral",
+        "polarity": 0.2,
+        "impact_score": 0.2,
+        "interpretation": "中性消息，影响有限"
+      }
+    ],
+    "category_analysis": {
+      "earnings": {
+        "name": "财报业绩",
+        "count": 5,
+        "avg_sentiment": 0.2233,
+        "sentiment_label": "偏乐观",
+        "key_points": [
+          "多数财报消息正面，业绩表现良好"
+        ],
+        "impact_assessment": "高影响 - 正面"
+      },
+      "general": {
+        "name": "一般资讯",
+        "count": 9,
+        "avg_sentiment": 0.1854,
+        "sentiment_label": "偏乐观",
+        "key_points": [],
+        "impact_assessment": "低影响 - 中性"
+      },
+      "analyst": {
+        "name": "分析师观点",
+        "count": 2,
+        "avg_sentiment": 0.2,
+        "sentiment_label": "偏乐观",
+        "key_points": [],
+        "impact_assessment": "中影响 - 中性"
+      },
+      "regulatory": {
+        "name": "监管政策",
+        "count": 1,
+        "avg_sentiment": 0.2,
+        "sentiment_label": "偏乐观",
+        "key_points": [
+          "监管环境改善，政策风险下降"
+        ],
+        "impact_assessment": "高影响 - 中性"
+      },
+      "market": {
+        "name": "市场表现",
+        "count": 1,
+        "avg_sentiment": 0.2,
+        "sentiment_label": "偏乐观",
+        "key_points": [],
+        "impact_assessment": "低影响 - 中性"
+      }
+    },
+    "narrative_analysis": [
+      {
+        "theme": "增长叙事",
+        "mentions": 3,
+        "significance": "中"
+      },
+      {
+        "theme": "创新叙事",
+        "mentions": 3,
+        "significance": "中"
+      },
+      {
+        "theme": "盈利叙事",
+        "mentions": 2,
+        "significance": "中"
+      }
+    ]
+  },
+  "social_analysis": {
+    "platform_comparison": [
+      {
+        "platform": "TWITTER",
+        "sentiment": 0.4077,
+        "sentiment_label": "乐观",
+        "positive_ratio": 0.8,
+        "activity_level": "低",
+        "characteristics": "国际投资者、机构关注度高 | 情绪看多"
+      },
+      {
+        "platform": "REDDIT",
+        "sentiment": -0.1648,
+        "sentiment_label": "偏悲观",
+        "positive_ratio": 0.3333,
+        "activity_level": "低",
+        "characteristics": "散户集中、情绪波动大 | 情绪分歧"
+      },
+      {
+        "platform": "XUEQIU",
+        "sentiment": 0.0,
+        "sentiment_label": "中性",
+        "positive_ratio": 0.0,
+        "activity_level": "低",
+        "characteristics": "中国价值投资者、分析深入 | 情绪分歧"
+      },
+      {
+        "platform": "GUBA",
+        "sentiment": 0.0,
+        "sentiment_label": "中性",
+        "positive_ratio": 0.0,
+        "activity_level": "低",
+        "characteristics": "散户情绪、短期投机氛围 | 情绪分歧"
+      }
+    ],
+    "sentiment_shift_analysis": [
+      {
+        "platform": "twitter",
+        "direction": "转向乐观",
+        "magnitude": "温和",
+        "interpretation": "国际投资者情绪改善，可能预示外资流入"
+      },
+      {
+        "platform": "reddit",
+        "direction": "转向乐观",
+        "magnitude": "显著",
+        "interpretation": "散户情绪回暖，短期可能反弹"
+      }
+    ],
+    "hot_topics": [
+      {
+        "platform": "TWITTER",
+        "hot_words": [
+          "baba",
+          "looking",
+          "bullish"
+        ],
+        "theme": "一般行情讨论"
+      },
+      {
+        "platform": "REDDIT",
+        "hot_words": [
+          "baba",
+          "levels",
+          "earnings"
+        ],
+        "theme": "财报业绩讨论"
+      }
+    ],
+    "retail_vs_institutional": {
+      "retail_sentiment": -0.0824,
+      "institutional_sentiment": 0.2038,
+      "sentiment_gap": 0.2862,
+      "divergence_analysis": "机构与散户情绪基本一致"
+    },
+    "overall_interpretation": {
+      "overall_sentiment": 0.0607,
+      "sentiment_label": "中性",
+      "consistency": "高",
+      "trend": "情绪改善中",
+      "key_takeaway": "社交媒体情绪中性，观望氛围浓厚"
+    }
+  },
+  "contrarian_signals": [
+    {
+      "type": "BUY",
+      "strength": "MEDIUM",
+      "strategy": "趋势跟随",
+      "reason": "多个平台情绪同时转向乐观，可能形成情绪拐点",
+      "risk_management": "适度建仓，确认趋势后加仓",
+      "time_horizon": "中期（1-3个月）"
+    }
+  ],
+  "action_items": [
+    "持续监控社交媒体情绪变化，特别是Twitter和Reddit",
+    "关注散户与机构情绪差异，寻找信息差机会",
+    "跟踪权威媒体对公司的报道，特别是财报和监管动态",
+    "关注分析师评级变化，了解机构观点",
+    "结合技术分析确认入场时机",
+    "设置止损位，控制情绪交易风险"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "symbol": "BABA",
+  "plan_date": "2026-03-02T20:59:33.017598",
+  "decision_rating": "持有",
+  "decision_score": 63.2,
+  "direction": "LONG",
+  "entry_plan": {
+    "entry_price": 85.5,
+    "entry_range": [
+      78.66,
+      82.935
+    ],
+    "entry_conditions": [
+      "价格跌至强支撑位",
+      "出现明显反弹信号",
+      "技术指标超卖(RSI < 30)",
+      "负面消息已充分消化"
+    ],
+    "initial_position": 467,
+    "initial_capital": 39928.5
+  },
+  "exit_plan": {
+    "stop_loss": 81.22,
+    "take_profit_1": 91.91,
+    "take_profit_2": 95.76,
+    "take_profit_3": 98.32,
+    "trailing_stop": true,
+    "time_stop": 90
+  },
+  "position_plan": {
+    "total_position": 467,
+    "initial_entry": 186,
+    "add_position_1": 140,
+    "add_position_2": 93,
+    "add_trigger_1": 0.05,
+    "add_trigger_2": 0.1,
+    "risk_amount": 2000.0,
+    "risk_percent": 2.0
+  },
+  "risk_control": {
+    "max_loss_per_trade": 2000.0,
+    "max_loss_per_day": 5000.0,
+    "max_drawdown": 20000.0,
+    "position_limit": 20000.0,
+    "emergency_exit": [
+      "股价单日暴跌超过10%",
+      "公司发布重大负面消息",
+      "行业政策突然变化",
+      "大盘系统性风险",
+      "自身情绪失控"
+    ]
+  },
+  "pre_trade_checklist": [
+    "□ 投资决策已确认并理解",
+    "□ 交易计划已制定并记录",
+    "□ 风险预算已计算并可以接受",
+    "□ 入场条件已明确",
+    "□ 止损位已确定并设置",
+    "□ 止盈目标已设定",
+    "□ 仓位大小已计算合理",
+    "□ 资金已到位可用",
+    "□ 情绪稳定，无冲动交易倾向",
+    "□ 市场环境与预期一致"
+  ],
+  "post_trade_checklist": [
+    "□ 实际入场价与计划对比",
+    "□ 实际仓位与计划对比",
+    "□ 止损单已正确设置",
+    "□ 交易信息已记录到日志",
+    "□ 持仓状态已更新",
+    "□ 下一步操作计划已准备",
+    "□ 情绪状态已记录",
+    "□ 计划执行度已评估"
+  ],
+  "journal_template": "\n============================================================\n交易日志 - BABA\n============================================================\n\n【基本信息】\n交易日期: {trade_date}\n交易标的: BABA\n交易方向: 买入/卖出\n\n【交易计划回顾】\n计划入场价: {planned_entry}\n计划止损价: {planned_stop}\n计划止盈价: {planned_target}\n计划仓位: {planned_position}\n\n【实际执行】\n实际入场价: {actual_entry}\n实际仓位: {actual_position}\n入场理由: {entry_reason}\n\n【持仓管理】\n止损调整记录:\n  - 初始止损: {initial_stop}\n  - 调整后1: {adjusted_stop_1}\n  - 调整后2: {adjusted_stop_2}\n\n加仓记录:\n  - 加仓1: {add_1_price} @ {add_1_shares}\n  - 加仓2: {add_2_price} @ {add_2_shares}\n\n【交易结果】\n出场价格: {exit_price}\n出场原因: {exit_reason}\n盈亏金额: {pnl_amount}\n盈亏比例: {pnl_percent}\n持仓时间: {holding_days}天\n\n【复盘总结】\n计划执行度: {execution_score}/10\n情绪状态: {emotional_state}\n做得好的: {what_went_well}\n需要改进: {what_to_improve}\n经验教训: {lessons_learned}\n\n【后续行动】\n下一步计划: {next_steps}\n============================================================\n",
+  "psychology_tips": [
+    "交易前深呼吸，确保情绪稳定",
+    "严格按照计划执行，不临时改变策略",
+    "接受亏损是交易的一部分，不要试图报复市场",
+    "盈利时保持谦逊，亏损时保持冷静",
+    "不要过度关注单笔交易，关注长期表现",
+    "定期休息，避免过度交易",
+    "记录情绪状态，识别自己的心理陷阱",
+    "连续亏损3笔后强制停止交易",
+    "盈利超过目标后不要贪婪，按计划止盈",
+    "市场永远有机会，保护本金是第一要务"
+  ]
+}

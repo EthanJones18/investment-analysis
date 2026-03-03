@@ -1,0 +1,56 @@
+{
+  "symbol": "BABA",
+  "analysis_date": "2026-03-02 20:13:05",
+  "composite_sentiment_index": {
+    "composite_score": 0.0905,
+    "index_value": 54.52,
+    "components": [
+      {
+        "score": 0.25,
+        "weight": 0.35,
+        "source": "news"
+      },
+      {
+        "score": 0.15,
+        "weight": 0.3,
+        "source": "social"
+      },
+      {
+        "score": -0.6000000000000001,
+        "weight": 0.2,
+        "source": "options"
+      },
+      {
+        "score": 0.52,
+        "weight": 0.15,
+        "source": "analyst"
+      }
+    ],
+    "interpretation": {
+      "level": "中性",
+      "signal": "观望，等待方向",
+      "color": "yellow"
+    }
+  },
+  "fear_greed_index": {
+    "index_value": 49.17,
+    "sentiment": "中性",
+    "indicators": {
+      "price_momentum": 65,
+      "price_strength": 55,
+      "price_breadth": 45,
+      "put_call_ratio": 40,
+      "junk_bond_demand": 60,
+      "market_volatility": 30
+    },
+    "last_month": 30.17,
+    "last_year": 67.17
+  },
+  "trading_signals": [
+    {
+      "type": "NEUTRAL",
+      "confidence": "LOW",
+      "reason": "市场情绪中性，等待方向"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "symbol": "GME",
+  "analysis_date": "2026-03-02T20:48:02.866992",
+  "overall_score": 71.2,
+  "rating": "中性偏空 (Underweight)",
+  "short_thesis": "GameStop Corp.存在一定风险因素，但做空时机尚需等待。建议密切关注催化剂事件。",
+  "valuation_metrics": {
+    "pe_ratio": -15.0,
+    "ps_ratio": 1.8,
+    "peg_ratio": -1.0,
+    "ev_ebitda": 45.0,
+    "price_book": 8.5,
+    "vs_historical": "+150%",
+    "vs_industry": "+200%",
+    "bubble_score": 5.0
+  },
+  "fundamental_flags": {
+    "revenue_quality": 5.0,
+    "cash_flow_quality": 0,
+    "balance_sheet_risk": 7.45,
+    "accounting_concerns": [
+      "收入3年下滑25%",
+      "经营现金流持续为负",
+      "存货周转率下降",
+      "商誉减值风险",
+      "收入确认激进",
+      "存货跌价准备不足"
+    ],
+    "overall_risk": "High",
+    "score": 8.0
+  },
+  "industry_risks": {
+    "cycle_phase": "衰退期",
+    "disruption_risk": 9.0,
+    "regulatory_risk": 3.0,
+    "competition_intensity": 8.5,
+    "growth_outlook": "负增长",
+    "score": 8.5
+  },
+  "management_risks": {
+    "insider_selling": true,
+    "auditor_changes": true,
+    "related_party_transactions": 0.15,
+    "guidance_accuracy": "差",
+    "score": 7.5
+  },
+  "key_risks": [
+    "持续亏损",
+    "基本面严重恶化",
+    "收入3年下滑25%",
+    "经营现金流持续为负",
+    "存货周转率下降",
+    "技术替代风险高",
+    "行业负增长",
+    "市场情绪逆转风险",
+    "流动性风险",
+    "轧空风险"
+  ],
+  "catalysts": [
+    "季度业绩不及预期",
+    "审计意见非标",
+    "技术替代加速",
+    "做空报告发布",
+    "机构下调评级",
+    "宏观经济恶化"
+  ],
+  "target_price": null,
+  "downside_potential": null,
+  "short_recommendation": "建议观望。等待更好的做空时机或催化剂事件。"
+}

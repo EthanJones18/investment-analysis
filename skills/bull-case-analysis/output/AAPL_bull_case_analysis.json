@@ -1,0 +1,61 @@
+{
+  "symbol": "AAPL",
+  "analysis_date": "2026-03-02T20:42:25.511101",
+  "overall_score": 83.0,
+  "rating": "推荐 (Buy)",
+  "investment_thesis": "Apple Inc.在Technology领域具有竞争优势，增长前景良好。公司持续投入研发，市场拓展机会明确，适合积极配置。",
+  "growth_metrics": {
+    "revenue_growth_3y": 0.15,
+    "revenue_growth_5y": 0.12,
+    "earnings_growth_3y": 0.18,
+    "gross_margin_trend": "stable",
+    "operating_margin_trend": "improving",
+    "fcf_growth": 0.14,
+    "roe": 0.28,
+    "roic": 0.25,
+    "score": 9.3
+  },
+  "moat_analysis": {
+    "brand_strength": 9.5,
+    "cost_advantage": 7.0,
+    "network_effects": 8.5,
+    "switching_costs": 8.0,
+    "patents_ip": 7.5,
+    "overall_moat": "Wide",
+    "score": 8.1
+  },
+  "innovation_metrics": {
+    "rd_spending_pct": 0.07,
+    "rd_growth": 0.12,
+    "patent_count": 2500,
+    "new_product_contribution": 0.25,
+    "tech_leadership": "leading",
+    "score": 7.0
+  },
+  "market_opportunity": {
+    "tam": 1000000000000,
+    "sam": 500000000000,
+    "som": 50000000000,
+    "market_growth_rate": 0.08,
+    "market_share": 0.2,
+    "expansion_opportunities": [
+      "Services",
+      "AR/VR",
+      "Automotive"
+    ],
+    "score": 9.3
+  },
+  "key_strengths": [
+    "优秀的资本回报率 (ROE 28%)",
+    "深厚的护城河保护",
+    "强大的品牌价值",
+    "技术领先地位"
+  ],
+  "risk_factors": [
+    "宏观经济波动风险",
+    "行业竞争加剧",
+    "监管政策变化"
+  ],
+  "target_price": null,
+  "upside_potential": null
+}

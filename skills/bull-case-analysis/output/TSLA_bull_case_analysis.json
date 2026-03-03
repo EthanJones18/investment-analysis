@@ -1,0 +1,61 @@
+{
+  "symbol": "TSLA",
+  "analysis_date": "2026-03-02T20:42:43.262669",
+  "overall_score": 86.0,
+  "rating": "推荐 (Buy)",
+  "investment_thesis": "Tesla, Inc.是Automotive行业的领导者，拥有深厚的护城河和持续的创新能力。公司在高增长市场中占据有利地位，财务表现优异，是长期持有的优质标的。",
+  "growth_metrics": {
+    "revenue_growth_3y": 0.35,
+    "revenue_growth_5y": 0.28,
+    "earnings_growth_3y": 0.4,
+    "gross_margin_trend": "improving",
+    "operating_margin_trend": "improving",
+    "fcf_growth": 0.3,
+    "roe": 0.2,
+    "roic": 0.15,
+    "score": 10
+  },
+  "moat_analysis": {
+    "brand_strength": 8.5,
+    "cost_advantage": 6.5,
+    "network_effects": 7.0,
+    "switching_costs": 5.0,
+    "patents_ip": 7.0,
+    "overall_moat": "Narrow",
+    "score": 6.8
+  },
+  "innovation_metrics": {
+    "rd_spending_pct": 0.15,
+    "rd_growth": 0.2,
+    "patent_count": 1200,
+    "new_product_contribution": 0.3,
+    "tech_leadership": "leading",
+    "score": 8.5
+  },
+  "market_opportunity": {
+    "tam": 3000000000000,
+    "sam": 500000000000,
+    "som": 100000000000,
+    "market_growth_rate": 0.15,
+    "market_share": 0.05,
+    "expansion_opportunities": [
+      "Energy Storage",
+      "Robotaxi",
+      "AI/Robotics"
+    ],
+    "score": 10
+  },
+  "key_strengths": [
+    "强劲的收入增长 (35% CAGR)",
+    "强大的品牌价值",
+    "技术领先地位",
+    "高研发投入 (15%)"
+  ],
+  "risk_factors": [
+    "宏观经济波动风险",
+    "行业竞争加剧",
+    "监管政策变化"
+  ],
+  "target_price": null,
+  "upside_potential": null
+}

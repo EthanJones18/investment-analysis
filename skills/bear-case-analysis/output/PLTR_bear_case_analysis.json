@@ -1,0 +1,61 @@
+{
+  "symbol": "PLTR",
+  "analysis_date": "2026-03-02T20:48:10.564487",
+  "overall_score": 48.9,
+  "rating": "回避 (Avoid)",
+  "short_thesis": "Palantir Technologies做空吸引力有限，建议寻找更好的做空标的。",
+  "valuation_metrics": {
+    "pe_ratio": 150.0,
+    "ps_ratio": 25.0,
+    "peg_ratio": 5.0,
+    "ev_ebitda": 80.0,
+    "price_book": 15.0,
+    "vs_historical": "+100%",
+    "vs_industry": "+400%",
+    "bubble_score": 8.0
+  },
+  "fundamental_flags": {
+    "revenue_quality": 5.0,
+    "cash_flow_quality": 8,
+    "balance_sheet_risk": 9.55,
+    "accounting_concerns": [
+      "收入集中度高",
+      "客户集中度风险"
+    ],
+    "overall_risk": "Low",
+    "score": 1.0
+  },
+  "industry_risks": {
+    "cycle_phase": "成熟期",
+    "disruption_risk": 6.0,
+    "regulatory_risk": 7.0,
+    "competition_intensity": 7.5,
+    "growth_outlook": "放缓",
+    "score": 5.7
+  },
+  "management_risks": {
+    "insider_selling": true,
+    "auditor_changes": false,
+    "related_party_transactions": 0.05,
+    "guidance_accuracy": "中等",
+    "score": 3
+  },
+  "key_risks": [
+    "估值泡沫严重",
+    "收入集中度高",
+    "客户集中度风险",
+    "市场情绪逆转风险",
+    "流动性风险",
+    "轧空风险"
+  ],
+  "catalysts": [
+    "季度业绩不及预期",
+    "审计意见非标",
+    "做空报告发布",
+    "机构下调评级",
+    "宏观经济恶化"
+  ],
+  "target_price": null,
+  "downside_potential": null,
+  "short_recommendation": "不建议做空。寻找其他做空标的。"
+}

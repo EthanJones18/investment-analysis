@@ -1,0 +1,70 @@
+{
+  "symbol": "AMC",
+  "analysis_date": "2026-03-02T20:48:06.565763",
+  "overall_score": 71.0,
+  "rating": "中性偏空 (Underweight)",
+  "short_thesis": "AMC Entertainment存在一定风险因素，但做空时机尚需等待。建议密切关注催化剂事件。",
+  "valuation_metrics": {
+    "pe_ratio": -8.0,
+    "ps_ratio": 2.5,
+    "peg_ratio": -1.0,
+    "ev_ebitda": 35.0,
+    "price_book": 12.0,
+    "vs_historical": "+300%",
+    "vs_industry": "+250%",
+    "bubble_score": 6
+  },
+  "fundamental_flags": {
+    "revenue_quality": 0,
+    "cash_flow_quality": 0,
+    "balance_sheet_risk": 2.5,
+    "accounting_concerns": [
+      "收入3年下滑60%",
+      "经营现金流持续为负",
+      "商誉减值风险",
+      "高负债率(D/E=2.5)",
+      "债务重组频繁",
+      "持续经营能力存疑"
+    ],
+    "overall_risk": "High",
+    "score": 9.0
+  },
+  "industry_risks": {
+    "cycle_phase": "衰退期",
+    "disruption_risk": 9.5,
+    "regulatory_risk": 4.0,
+    "competition_intensity": 7.0,
+    "growth_outlook": "负增长",
+    "score": 8.5
+  },
+  "management_risks": {
+    "insider_selling": true,
+    "auditor_changes": false,
+    "related_party_transactions": 0.08,
+    "guidance_accuracy": "差",
+    "score": 4
+  },
+  "key_risks": [
+    "持续亏损",
+    "基本面严重恶化",
+    "收入3年下滑60%",
+    "经营现金流持续为负",
+    "商誉减值风险",
+    "技术替代风险高",
+    "行业负增长",
+    "市场情绪逆转风险",
+    "流动性风险",
+    "轧空风险"
+  ],
+  "catalysts": [
+    "季度业绩不及预期",
+    "审计意见非标",
+    "技术替代加速",
+    "做空报告发布",
+    "机构下调评级",
+    "宏观经济恶化"
+  ],
+  "target_price": null,
+  "downside_potential": null,
+  "short_recommendation": "建议观望。等待更好的做空时机或催化剂事件。"
+}

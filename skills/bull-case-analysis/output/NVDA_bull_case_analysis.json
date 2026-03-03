@@ -1,0 +1,63 @@
+{
+  "symbol": "NVDA",
+  "analysis_date": "2026-03-02T20:42:21.370004",
+  "overall_score": 87.0,
+  "rating": "推荐 (Buy)",
+  "investment_thesis": "NVIDIA Corporation是Technology行业的领导者，拥有深厚的护城河和持续的创新能力。公司在高增长市场中占据有利地位，财务表现优异，是长期持有的优质标的。",
+  "growth_metrics": {
+    "revenue_growth_3y": 0.45,
+    "revenue_growth_5y": 0.35,
+    "earnings_growth_3y": 0.55,
+    "gross_margin_trend": "improving",
+    "operating_margin_trend": "improving",
+    "fcf_growth": 0.5,
+    "roe": 0.35,
+    "roic": 0.3,
+    "score": 10
+  },
+  "moat_analysis": {
+    "brand_strength": 9.0,
+    "cost_advantage": 6.0,
+    "network_effects": 7.5,
+    "switching_costs": 7.0,
+    "patents_ip": 8.5,
+    "overall_moat": "Narrow",
+    "score": 7.6
+  },
+  "innovation_metrics": {
+    "rd_spending_pct": 0.2,
+    "rd_growth": 0.25,
+    "patent_count": 8000,
+    "new_product_contribution": 0.4,
+    "tech_leadership": "dominant",
+    "score": 10
+  },
+  "market_opportunity": {
+    "tam": 500000000000,
+    "sam": 200000000000,
+    "som": 30000000000,
+    "market_growth_rate": 0.25,
+    "market_share": 0.8,
+    "expansion_opportunities": [
+      "AI/Data Center",
+      "Automotive",
+      "Robotics"
+    ],
+    "score": 7.2
+  },
+  "key_strengths": [
+    "强劲的收入增长 (45% CAGR)",
+    "优秀的资本回报率 (ROE 35%)",
+    "强大的品牌价值",
+    "技术领先地位",
+    "高研发投入 (20%)"
+  ],
+  "risk_factors": [
+    "市场份额已高，增长空间有限",
+    "宏观经济波动风险",
+    "行业竞争加剧",
+    "监管政策变化"
+  ],
+  "target_price": null,
+  "upside_potential": null
+}

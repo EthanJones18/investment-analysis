@@ -1,0 +1,104 @@
+# 配置文件示例
+# 用于 full_spider.py 的完整配置
+
+# 数据库配置（可选，用于存储大量数据）
+database:
+  type: mysql  # 或 sqlite
+  host: localhost
+  port: 3306
+  user: root
+  password: your_password
+  database: wechat_spider
+  charset: utf8mb4
+
+# Redis配置（可选，用于任务队列）
+redis:
+  host: localhost
+  port: 6379
+  db: 0
+  password: null
+
+# 爬取配置
+crawler:
+  # 请求间隔（秒）
+  delay: 3
+  
+  # 超时时间（秒）
+  timeout: 30
+  
+  # 重试次数
+  retry: 3
+  
+  # 每页文章数
+  page_size: 10
+  
+  # 最大页数（0表示无限制）
+  max_pages: 0
+  
+  # 是否下载文章内容
+  download_content: true
+  
+  # 是否获取阅读点赞数据
+  get_read_like: true
+  
+  # 是否获取评论
+  get_comments: true
+
+# 代理配置（可选）
+proxy:
+  enabled: false
+  # 代理类型: http, https, socks5
+  type: http
+  host: 127.0.0.1
+  port: 7890
+  # 代理认证（可选）
+  username: null
+  password: null
+
+# 输出配置
+output:
+  # 输出目录
+  dir: ./wechat_data
+  
+  # 输出格式: excel, json, csv, database
+  format: excel
+  
+  # 是否按公众号分目录存储
+  separate_by_account: true
+  
+  # 是否保存文章HTML
+  save_html: false
+  
+  # 是否保存文章图片
+  save_images: false
+
+# 监控配置（用于 monitor.py）
+monitor:
+  # 检查间隔（秒）
+  interval: 3600
+  
+  # 是否发送通知
+  notification:
+    enabled: false
+    # 通知方式: email, webhook, bark
+    type: webhook
+    webhook_url: https://your-webhook-url.com
+
+# 要爬取的公众号列表
+accounts:
+  - name: 示例公众号1
+    biz: MzIxNzg1ODQ0MQ==
+    # 单独配置（可选，覆盖全局配置）
+    max_pages: 5
+    
+  - name: 示例公众号2
+    biz: MzI5NjEzNjM3MQ==
+    max_pages: 10
+
+# Token配置
+# 可以从环境变量读取，也可以直接配置在这里
+token:
+  # 环境变量名
+  env_name: WECHAT_TOKEN
+  # 直接配置（不推荐，容易过期）
+  value: null

@@ -1,0 +1,428 @@
+{
+  "symbol": "BABA",
+  "analysis_date": "2026-03-02 20:13:05",
+  "news_count": 18,
+  "sources": [
+    "bloomberg",
+    "reuters",
+    "cnbc",
+    "seekingalpha",
+    "caixin",
+    "yicai"
+  ],
+  "composite_sentiment": 0.19,
+  "sentiment_label": "偏积极",
+  "source_stats": {
+    "第一财经": {
+      "count": 3,
+      "sentiments": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "avg_sentiment": 0.2,
+      "positive_ratio": 1.0
+    },
+    "财新": {
+      "count": 3,
+      "sentiments": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "avg_sentiment": 0.2,
+      "positive_ratio": 1.0
+    },
+    "Seeking Alpha": {
+      "count": 3,
+      "sentiments": [
+        0.1,
+        0.2,
+        0.2
+      ],
+      "avg_sentiment": 0.1667,
+      "positive_ratio": 1.0
+    },
+    "CNBC": {
+      "count": 3,
+      "sentiments": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "avg_sentiment": 0.2,
+      "positive_ratio": 1.0
+    },
+    "Reuters": {
+      "count": 3,
+      "sentiments": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "avg_sentiment": 0.2,
+      "positive_ratio": 1.0
+    },
+    "Bloomberg": {
+      "count": 3,
+      "sentiments": [
+        0.3167,
+        0.1682,
+        0.2
+      ],
+      "avg_sentiment": 0.2283,
+      "positive_ratio": 1.0
+    }
+  },
+  "key_events": [
+    {
+      "category": "earnings",
+      "title": "BABA Beats Earnings Estimates on Strong Cloud Growth",
+      "source": "Bloomberg",
+      "date": "2026-03-02",
+      "sentiment": "positive",
+      "polarity": 0.3167
+    },
+    {
+      "category": "analyst",
+      "title": "分析师看好BABA长期前景",
+      "source": "财新",
+      "date": "2026-02-26",
+      "sentiment": "neutral",
+      "polarity": 0.2
+    },
+    {
+      "category": "regulatory",
+      "title": "BABA faces regulatory scrutiny in EU",
+      "source": "Reuters",
+      "date": "2026-02-26",
+      "sentiment": "neutral",
+      "polarity": 0.2
+    },
+    {
+      "category": "market",
+      "title": "Analysts Raise Price Targets for BABA",
+      "source": "Bloomberg",
+      "date": "2026-02-26",
+      "sentiment": "neutral",
+      "polarity": 0.2
+    }
+  ],
+  "category_distribution": {
+    "earnings": {
+      "count": 5,
+      "avg_sentiment": 0.2233
+    },
+    "general": {
+      "count": 9,
+      "avg_sentiment": 0.1854
+    },
+    "analyst": {
+      "count": 2,
+      "avg_sentiment": 0.2
+    },
+    "regulatory": {
+      "count": 1,
+      "avg_sentiment": 0.2
+    },
+    "market": {
+      "count": 1,
+      "avg_sentiment": 0.2
+    }
+  },
+  "daily_sentiment": {
+    "2026-02-26": 0.2,
+    "2026-02-28": 0.1947,
+    "2026-03-02": 0.2028
+  },
+  "detailed_news": [
+    {
+      "id": "yicai_0",
+      "title": "BABA发布强劲财报",
+      "content": "BABA发布强劲财报. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "第一财经",
+      "source_weight": 0.9,
+      "published": "2026-03-02 20:13:04",
+      "url": "https://example.com/yicai/0",
+      "category": "earnings",
+      "sentiment_tag": "positive",
+      "sentiment": {
+        "polarity": 0.2,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.18
+    },
+    {
+      "id": "caixin_0",
+      "title": "BABA业绩超预期 云计算业务增长强劲",
+      "content": "BABA业绩超预期 云计算业务增长强劲. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "财新",
+      "source_weight": 1.0,
+      "published": "2026-03-02 20:13:04",
+      "url": "https://example.com/caixin/0",
+      "category": "earnings",
+      "sentiment_tag": "positive",
+      "sentiment": {
+        "polarity": 0.2,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.2
+    },
+    {
+      "id": "seekingalpha_0",
+      "title": "BABA: A Deep Value Play",
+      "content": "BABA: A Deep Value Play. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "Seeking Alpha",
+      "source_weight": 0.9,
+      "published": "2026-03-02 20:13:03",
+      "url": "https://example.com/seekingalpha/0",
+      "category": "general",
+      "sentiment_tag": "positive",
+      "sentiment": {
+        "polarity": 0.1,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.09
+    },
+    {
+      "id": "cnbc_0",
+      "title": "BABA is a buy here, say analysts",
+      "content": "BABA is a buy here, say analysts. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "CNBC",
+      "source_weight": 0.9,
+      "published": "2026-03-02 20:13:03",
+      "url": "https://example.com/cnbc/0",
+      "category": "analyst",
+      "sentiment_tag": "positive",
+      "sentiment": {
+        "polarity": 0.2,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.18
+    },
+    {
+      "id": "reuters_0",
+      "title": "BABA revenue rises 15% on cloud demand",
+      "content": "BABA revenue rises 15% on cloud demand. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "Reuters",
+      "source_weight": 1.0,
+      "published": "2026-03-02 20:13:02",
+      "url": "https://example.com/reuters/0",
+      "category": "earnings",
+      "sentiment_tag": "positive",
+      "sentiment": {
+        "polarity": 0.2,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.2
+    },
+    {
+      "id": "bloomberg_0",
+      "title": "BABA Beats Earnings Estimates on Strong Cloud Growth",
+      "content": "BABA Beats Earnings Estimates on Strong Cloud Growth. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "Bloomberg",
+      "source_weight": 1.0,
+      "published": "2026-03-02 20:13:02",
+      "url": "https://example.com/bloomberg/0",
+      "category": "earnings",
+      "sentiment_tag": "positive",
+      "sentiment": {
+        "polarity": 0.3167,
+        "sentiment": "positive"
+      },
+      "weighted_sentiment": 0.3167
+    },
+    {
+      "id": "yicai_1",
+      "title": "BABA加码人工智能布局",
+      "content": "BABA加码人工智能布局. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "第一财经",
+      "source_weight": 0.9,
+      "published": "2026-02-28 20:13:04",
+      "url": "https://example.com/yicai/1",
+      "category": "general",
+      "sentiment_tag": "positive",
+      "sentiment": {
+        "polarity": 0.2,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.18
+    },
+    {
+      "id": "caixin_1",
+      "title": "BABA宣布加大AI投资力度",
+      "content": "BABA宣布加大AI投资力度. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "财新",
+      "source_weight": 1.0,
+      "published": "2026-02-28 20:13:04",
+      "url": "https://example.com/caixin/1",
+      "category": "general",
+      "sentiment_tag": "positive",
+      "sentiment": {
+        "polarity": 0.2,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.2
+    },
+    {
+      "id": "seekingalpha_1",
+      "title": "Why BABA Is A Buy",
+      "content": "Why BABA Is A Buy. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "Seeking Alpha",
+      "source_weight": 0.9,
+      "published": "2026-02-28 20:13:03",
+      "url": "https://example.com/seekingalpha/1",
+      "category": "general",
+      "sentiment_tag": "positive",
+      "sentiment": {
+        "polarity": 0.2,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.18
+    },
+    {
+      "id": "cnbc_1",
+      "title": "Cramer: BABA is executing well",
+      "content": "Cramer: BABA is executing well. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "CNBC",
+      "source_weight": 0.9,
+      "published": "2026-02-28 20:13:03",
+      "url": "https://example.com/cnbc/1",
+      "category": "general",
+      "sentiment_tag": "positive",
+      "sentiment": {
+        "polarity": 0.2,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.18
+    },
+    {
+      "id": "reuters_1",
+      "title": "BABA to invest $10 billion in AI infrastructure",
+      "content": "BABA to invest $10 billion in AI infrastructure. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "Reuters",
+      "source_weight": 1.0,
+      "published": "2026-02-28 20:13:02",
+      "url": "https://example.com/reuters/1",
+      "category": "general",
+      "sentiment_tag": "positive",
+      "sentiment": {
+        "polarity": 0.2,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.2
+    },
+    {
+      "id": "bloomberg_1",
+      "title": "BABA Announces New Share Buyback Program",
+      "content": "BABA Announces New Share Buyback Program. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "Bloomberg",
+      "source_weight": 1.0,
+      "published": "2026-02-28 20:13:02",
+      "url": "https://example.com/bloomberg/1",
+      "category": "general",
+      "sentiment_tag": "positive",
+      "sentiment": {
+        "polarity": 0.1682,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.1682
+    },
+    {
+      "id": "yicai_2",
+      "title": "市场关注BABA新战略",
+      "content": "市场关注BABA新战略. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "第一财经",
+      "source_weight": 0.9,
+      "published": "2026-02-26 20:13:04",
+      "url": "https://example.com/yicai/2",
+      "category": "general",
+      "sentiment_tag": "neutral",
+      "sentiment": {
+        "polarity": 0.2,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.18
+    },
+    {
+      "id": "caixin_2",
+      "title": "分析师看好BABA长期前景",
+      "content": "分析师看好BABA长期前景. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "财新",
+      "source_weight": 1.0,
+      "published": "2026-02-26 20:13:04",
+      "url": "https://example.com/caixin/2",
+      "category": "analyst",
+      "sentiment_tag": "positive",
+      "sentiment": {
+        "polarity": 0.2,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.2
+    },
+    {
+      "id": "seekingalpha_2",
+      "title": "BABA: Risks To Consider",
+      "content": "BABA: Risks To Consider. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "Seeking Alpha",
+      "source_weight": 0.9,
+      "published": "2026-02-26 20:13:03",
+      "url": "https://example.com/seekingalpha/2",
+      "category": "general",
+      "sentiment_tag": "neutral",
+      "sentiment": {
+        "polarity": 0.2,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.18
+    },
+    {
+      "id": "cnbc_2",
+      "title": "BABA stock volatile after earnings",
+      "content": "BABA stock volatile after earnings. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "CNBC",
+      "source_weight": 0.9,
+      "published": "2026-02-26 20:13:03",
+      "url": "https://example.com/cnbc/2",
+      "category": "earnings",
+      "sentiment_tag": "neutral",
+      "sentiment": {
+        "polarity": 0.2,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.18
+    },
+    {
+      "id": "reuters_2",
+      "title": "BABA faces regulatory scrutiny in EU",
+      "content": "BABA faces regulatory scrutiny in EU. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "Reuters",
+      "source_weight": 1.0,
+      "published": "2026-02-26 20:13:02",
+      "url": "https://example.com/reuters/2",
+      "category": "regulatory",
+      "sentiment_tag": "negative",
+      "sentiment": {
+        "polarity": 0.2,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.2
+    },
+    {
+      "id": "bloomberg_2",
+      "title": "Analysts Raise Price Targets for BABA",
+      "content": "Analysts Raise Price Targets for BABA. This is a detailed article about BABA and its recent developments in the market.",
+      "source": "Bloomberg",
+      "source_weight": 1.0,
+      "published": "2026-02-26 20:13:02",
+      "url": "https://example.com/bloomberg/2",
+      "category": "market",
+      "sentiment_tag": "positive",
+      "sentiment": {
+        "polarity": 0.2,
+        "sentiment": "neutral"
+      },
+      "weighted_sentiment": 0.2
+    }
+  ]
+}
