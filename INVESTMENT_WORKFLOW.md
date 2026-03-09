@@ -101,11 +101,94 @@ Step 6: 深度数据核对与修正（新增）
 3. **设定风险偏好**：aggressive / conservative / neutral
 4. **按序执行**：按 workflow 顺序依次调用各 skill
 5. **整合输出**：最终生成投资计划书
+6. **保存报告**：将报告保存到 `workspace/investment-analysis/` 目录
+7. **推送GitHub**：自动推送到 GitHub 仓库
 
 ### 输出格式
 
 - JSON：结构化数据，用于程序处理
 - Markdown：可读报告，用于人工阅读
+
+### 输出目录规范（强制）
+
+**所有生成的投资分析报告必须统一保存到以下目录：**
+
+```
+workspace/
+└── investment-analysis/
+    └── {yyyymmdd}_{hhmm}_{标的名称}_analysis_report.md
+```
+
+**命名规范：**
+- 格式：`{yyyymmdd}_{hhmm}_{标的名称}_analysis_report.md`
+- 日期时间：yyyymmdd = 年月日, hhmm = 时分（24小时制）
+- 标的名称：使用中文或英文简称，不含空格（如"农业ETF"、"腾讯控股"、"贵州茅台"）
+- 示例：`20260309_1430_农业ETF_analysis_report.md`
+- 多份同小时报告追加序号：`20260309_1430_农业ETF_analysis_report_01.md`
+
+**目录结构：**
+```
+workspace/investment-analysis/
+├── 20260309_1430_农业ETF_analysis_report.md         # 农业ETF分析
+├── 20260308_1030_腾讯控股_analysis_report.md        # 腾讯分析
+├── 20260307_1530_贵州茅台_analysis_report.md        # 茅台分析
+└── ...
+```
+
+### GitHub 自动推送（强制）
+
+**报告生成后必须自动执行以下操作，确保推送到远程GitHub仓库：**
+
+1. **添加到Git暂存区**
+   ```bash
+   git add investment-analysis/{报告文件名}.md
+   ```
+
+2. **提交到本地仓库**
+   ```bash
+   git commit -m "添加{标的代码}投资分析报告 - {分析日期}"
+   ```
+
+3. **推送到远程GitHub仓库（关键步骤）**
+   ```bash
+   git push origin master
+   ```
+   **注意**：此步骤必须成功完成，才算完成整个workflow。仅提交到本地仓库不算完成。
+
+4. **验证推送结果**
+   ```bash
+   git log --oneline -1
+   git status
+   ```
+   确认输出显示 "Your branch is up to date with 'origin/master'"
+
+**推送前检查清单：**
+- [ ] 远程仓库地址已正确配置 (`git remote -v`)
+- [ ] SSH密钥已添加到GitHub账户
+- [ ] 网络连接正常
+- [ ] 具有仓库写入权限
+
+**推送失败处理（必须重试直到成功或放弃）：**
+
+| 失败原因 | 处理方案 |
+|---------|---------|
+| SSH认证失败 | 检查SSH密钥配置，或切换为HTTPS+Token方式 |
+| 仓库不存在 | 确认远程仓库地址正确，或创建新仓库 |
+| 权限不足 | 确认GitHub账户有写入权限 |
+| 网络超时 | 重试推送，最多3次 |
+| 合并冲突 | 先执行 `git pull origin master` 合并后再推送 |
+
+**最终状态标记：**
+- ✅ **推送成功**：报告末尾添加 "✅ 已成功推送至GitHub"
+- ❌ **推送失败**：报告末尾添加 "❌ GitHub推送失败 - [具体原因]"，并记录手动推送命令
+
+**手动推送命令（备用）：**
+```bash
+cd /root/.openclaw/workspace
+git add investment-analysis/{报告文件名}.md
+git commit -m "添加{标的代码}投资分析报告 - {分析日期}"
+git push origin master
+```
 
 ### 质量检查
 
@@ -211,6 +294,7 @@ Step 3: ...
 |------|------|---------|
 | 2026-03-03 | 1.0 | 初始版本，定义标准 investment workflow |
 | 2026-03-09 | 1.1 | 新增 Step 6：深度数据核对与修正机制，确保报告数据准确性 |
+| 2026-03-09 | 1.2 | 新增输出目录规范（强制保存到investment-analysis/）和GitHub自动推送要求 |
 
 ---
 
@@ -276,9 +360,22 @@ Step 3: ...
 └─────────────────────────────────────────────────────────────┘
                             ↓
 ┌─────────────────────────────────────────────────────────────┐
-│  Step 7: 保存与推送                                            │
-│  - 保存最终报告                                                │
-│  - 推送到 GitHub                                               │
+│  Step 7: 保存与推送（强制规范）                                 │
+│                                                              │
+│  7.1 保存到指定目录                                           │
+│       - 目录: workspace/investment-analysis/                   │
+│       - 命名: {代码}_Investment_Analysis_{日期}.md            │
+│       - 示例: 159825_Investment_Analysis_20260309.md          │
+│                                                              │
+│  7.2 添加到Git                                                │
+│       - git add investment-analysis/xxx.md                    │
+│                                                              │
+│  7.3 提交变更                                                 │
+│       - git commit -m "添加{代码}投资分析报告 - {日期}"        │
+│                                                              │
+│  7.4 推送到GitHub                                             │
+│       - git push origin master                                │
+│       - 如失败则记录错误并标记 "⚠️ 未推送至GitHub"             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
