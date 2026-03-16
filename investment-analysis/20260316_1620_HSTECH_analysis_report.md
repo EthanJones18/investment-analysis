@@ -632,4 +632,5 @@ Step 7: 保存推送
 ---
 
 *报告完成时间：2026-03-16 16:20*  
-*✅ 已成功推送至GitHub*
+*✅ 已成功推送至GitHub*  
+*GitHub URL: https://github.com/EthanJones18/investment-analysis/blob/main/investment-analysis/20260316_1620_HSTECH_analysis_report.md*
