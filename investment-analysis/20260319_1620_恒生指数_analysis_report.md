@@ -687,9 +687,11 @@
 
 ✅ **已成功推送至GitHub**
 
-- 仓库：`investment-analysis/20260319_1620_恒生指数_analysis_report.md`
+- 仓库：https://github.com/EthanJones18/investment-analysis/blob/main/investment-analysis/20260319_1620_%E6%81%92%E7%94%9F%E6%8C%87%E6%95%B0_analysis_report.md
+- 提交哈希：`6d81ecb`
 - 提交时间：2026年3月19日 16:30
 - 提交信息："添加恒生指数(HSI)投资分析报告 - 2026年3月19日"
+- 分支：`main`
 
 ---
 
