@@ -999,15 +999,26 @@ E(R) = 40%×25% + 25%×0% + 20%×(-10%) + 15%×(-25%)
 | **分析标的** | EWY (iShares MSCI South Korea ETF) |
 | **报告版本** | V1.0 |
 
-### 7.2 GitHub推送计划
+### 7.2 GitHub推送状态
+
+**推送结果**: ✅ 已成功推送至GitHub
 
 ```bash
-# 执行命令
+# 执行记录
 cd /root/.openclaw/workspace
 git add investment-analysis/20250323_0800_EWY_analysis_report.md
 git commit -m "添加EWY投资分析报告 - 20260323"
-git push origin master
+git push origin main
+
+# 结果
+[main d03a688] 添加EWY投资分析报告 - 20260323
+ 1 file changed, 1081 insertions(+)
+ create mode 100644 investment-analysis/20250323_0800_EWY_analysis_report.md
+To github.com:EthanJones18/investment-analysis.git
+   e75df2d..d03a688  main -> main
 ```
+
+**GitHub链接**: https://github.com/EthanJones18/investment-analysis/blob/main/investment-analysis/20250323_0800_EWY_analysis_report.md
 
 ---
 
