@@ -594,4 +594,12 @@
 
 **报告生成时间**: 2026年3月27日 16:20  
 **报告状态**: 已完成数据核对  
-**推送状态**: 待推送至GitHub
+**推送状态**: ✅ 已成功推送至GitHub
+
+---
+
+## GitHub报告链接
+
+**报告链接**: https://github.com/EthanJones18/investment-analysis/blob/main/investment-analysis/20260327_1620_%E8%85%BE%E8%AE%AF%E6%8E%A7%E8%82%A1_analysis_report.md
+
+**GitHub仓库**: https://github.com/EthanJones18/investment-analysis
